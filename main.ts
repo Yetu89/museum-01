@@ -1,26 +1,27 @@
 // museum-01 — "Museum of the Year 3000"
 // make.fun bounty: https://make.fun/bounty/u-donrulezz-museum-of-the-year-3000-b727a0bb
 //
-// The submission is one line: the label a museum in the year 3000 puts
-// beside an ordinary object from today. The object is a plastic fork,
-// and the label reads it as a ceremonial trident of the ancients — used
-// once at a feast, then buried for a thousand years in a shrine called
-// a landfill. The humour comes from the year 3000 misreading the thing:
-// every word of the label is true (single-use, then landfill for a
-// millennium) and absurd at the same time, and the label never explains
-// its own joke — it stays short, straight-faced and confident, the way
-// a real museum label sounds. The fork beats the obvious first objects
-// (a phone, a key) because the landfill-as-shrine angle is fresh, and
-// the laugh lands on a first read with nothing around it. Grok
-// (grok-4.3) scored this candidate 9/10, the highest of the shortlist,
-// and this wording is the selected wording, unchanged since scoring.
-// At 145 characters it sits comfortably inside the 200-character gate.
+// What this entry is: one line of label copy, the kind a museum in the
+// year 3000 would mount beside an ordinary object from today. The
+// object is a plastic fork. The label reads it as a ceremonial trident
+// of the ancients — used once at a feast, then buried for a thousand
+// years in a shrine called a landfill. Every word of the label is true
+// (single-use, then landfill for a millennium) and absurd at the same
+// time, which is where the humour lives: the year 3000 misreads the
+// thing, and the label never explains its own joke. It stays short,
+// straight-faced and confident, the way real museum copy sounds, and
+// the landfill-as-shrine angle is fresher than the obvious first jokes
+// about a phone or a key. The laugh lands on a first read with nothing
+// around it. Grok (grok-4.3) scored this candidate 9/10, the highest
+// of the shortlist, and this wording is the selected wording, unchanged
+// since scoring. The label is 145 characters long, well inside the
+// 200-character ceiling.
 //
-// The gate, from the kit's RULES.txt: /output/entry.txt must be UTF-8
-// text of 1..200 characters, in English, and not only white space.
-// Only a valid entry goes before the pairwise judge; an invalid one
-// scores 0 no matter how funny it is. Verified locally: this label
-// writes as exactly 145 characters and passes every check below.
+// What the kit demands: /output/entry.txt must be UTF-8 text of 1..200
+// characters, in English, and not only white space. An entry that
+// fails the gate scores 0 and never reaches the pairwise judge, no
+// matter how funny it is. Verified locally: this label writes as
+// exactly 145 characters and passes every check below.
 //
 // This program proves the label satisfies the gate before writing it,
 // then proves the write by reading the file back and demanding an
